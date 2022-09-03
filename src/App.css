@@ -225,8 +225,9 @@ h3{
 }
 @media screen and (max-width:678px){
   .character-card {
-    width: 370px;
-    height: 150px;
+  flex-direction: column;
+    width: 270px;
+    height: 390px;
     font-size: 15px;
     padding: 1px;
   }
@@ -239,6 +240,7 @@ h3{
 .character-card img {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-radius: 10px;
 }
 .character-name {
   font-weight: var(--font-bold);
